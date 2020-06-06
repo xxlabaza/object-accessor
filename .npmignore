@@ -1,0 +1,12 @@
+
+.babelrc
+.gitignore
+.eslintrc.js
+.travis.yml
+
+src/
+node_modules/
+tsconfig.json
+jest.config.js
+dist/tests
+CONTRIBUTING.md

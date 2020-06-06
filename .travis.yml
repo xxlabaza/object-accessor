@@ -1,0 +1,18 @@
+
+language: node_js
+node_js:
+  - 14
+
+stages:
+  - linting
+  - typechecking
+  - testing
+
+jobs:
+  include:
+    - stage: linting
+      script: npm run lint
+    - stage: typechecking
+      script: npm run typecheck
+    - stage: testing
+      script: CI=true npm run test

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noLib":false,
+    "emitDecoratorMetadata":true,
+    "experimentalDecorators":true,
+    "pretty":true,
+    "allowUnreachableCode":true,
+    "allowUnusedLabels":true,
+    "noImplicitReturns":false,
+    "noImplicitUseStrict":false,
+    // "noImplicitAny": true,
+    "downlevelIteration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // "strictNullChecks": true,
+    "declaration": true,
+    // "strict": true,
+    "baseUrl": "./src",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "outDir": "dist",
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
